@@ -58,7 +58,13 @@ export const textGenModels: Model[] = [{
     name: 'meta-llama-3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
-}]
+},{
+    id: '@hf/mistral/mistral-7b-instruct-v0.2',
+    name: 'mistral-7b-instruct-v0.2',
+    provider: 'workers-ai',
+    type: 'chat'
+}
+]
 
 export const imageGenModels: Model[] = [{
     id: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
