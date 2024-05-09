@@ -63,12 +63,21 @@ export const textGenModels: Model[] = [{
     name: 'mistral-7b-instruct-v0.2',
     provider: 'workers-ai',
     type: 'chat'
-}
-]
+},{
+    id: '@cf/qwen/qwen1.5-7b-chat-awq',
+    name: 'qwen1.5-7b-chat-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}]
 
 export const imageGenModels: Model[] = [{
     id: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
     name: 'stable-diffusion-xl-base-1.0',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+},{
+    id: '@cf/bytedance/stable-diffusion-xl-lightning',
+    name: 'stable-diffusion-xl-lightning',
     provider: 'workers-ai-image',
     type: 'text-to-image'
 }]
