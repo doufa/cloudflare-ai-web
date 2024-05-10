@@ -23,6 +23,10 @@ export default defineNuxtConfig({
                 {
                     name: 'description',
                     content: 'Integrated web platform supporting GeminiPro/Cloudflare Workers AI/ChatGPT by Jazee6'
+                },
+                {
+                    name: 'viewport',
+                    content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
                 }
             ],
             link: [
